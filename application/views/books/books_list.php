@@ -13,7 +13,7 @@
         <h2 style="margin-top:0px">Books List</h2>
         <div class="row" style="margin-bottom: 10px">
             <div class="col-md-4">
-                <?php //echo anchor(site_url('books/create'),'Create', 'class="btn btn-primary"'); ?>
+             
             </div>
             <div class="col-md-4 text-center">
                 <div style="margin-top: 8px" id="message">
@@ -57,15 +57,6 @@
 			<td><?php echo $books->name ?></td>
 			<td><?php echo $books->author ?></td>
 			<td><?php echo $books->isbn ?></td>
-			<!--<td style="text-align:center" width="200px">
-				<?php /*
-				echo anchor(site_url('books/read/'.$books->id),'Read');
-				echo ' | ';
-				echo anchor(site_url('books/update/'.$books->id),'Update');
-				echo ' | ';
-				echo anchor(site_url('books/delete/'.$books->id),'Delete','onclick="javasciprt: return confirm(\'Are You Sure ?\')"');
-				*/?>
-			</td>-->
 		</tr>
                 <?php
             }
